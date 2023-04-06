@@ -151,8 +151,8 @@ class RRvideo {
       "-framerate",
       this.config.fps.toString(),
       // input
-      "-r",
       "-f",
+      "-r",
       "1",
       "image2pipe",
       "-i",
